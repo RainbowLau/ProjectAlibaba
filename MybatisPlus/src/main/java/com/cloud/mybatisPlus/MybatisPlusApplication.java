@@ -1,12 +1,13 @@
-package com.cloud;
+package com.cloud.mybatisPlus;
 
-import com.sun.glass.ui.Application;
+
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Copyright (C)
- * Author:   mino
+ * @Author:   mino
  * Date:     25/3/21 11:05 下午
  * History:
  */
