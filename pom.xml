@@ -13,6 +13,7 @@
         <module>MybatisPlus</module>
         <module>ProjectCommon</module>
         <module>RedisCache</module>
+        <module>SpringSecurity</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
