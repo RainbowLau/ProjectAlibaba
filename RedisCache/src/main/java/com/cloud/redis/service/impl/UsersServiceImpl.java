@@ -31,6 +31,7 @@ public class UsersServiceImpl implements UsersService {
     public Users getUser(String id) {
         Users users = usersMapper.selectById(id);
         redisUtil.set(id, users);
+        log.info("缓存成功");
         return users;
     }
 
